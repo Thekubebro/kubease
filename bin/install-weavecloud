@@ -1,0 +1,4 @@
+helm repo update && helm upgrade --install --wait weave-cloud \
+ --set token=w7epkizy1dq17r7p3kqsy81dd3bnuc9r \
+ --namespace weave \
+ stable/weave-cloud
